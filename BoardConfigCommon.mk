@@ -108,9 +108,10 @@ USE_CLANG_PLATFORM_BUILD := true
 WITH_DEXPREOPT_BOOT_IMG_ONLY := true
 
 BOARD_KERNEL_CMDLINE := androidboot.hardware=$(TARGET_BOOTLOADER_BOARD_NAME)
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
-ARM_EABI_TOOLCHAIN:= $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
-KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
+#KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
+#ARM_EABI_TOOLCHAIN:= $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
+#KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 #TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-linux-androideabi-4.9
 #TARGET_GCC_VERSION_EXP := 4.9
 TARGET_KERNEL_CONFIG := tegra3_android_defconfig
