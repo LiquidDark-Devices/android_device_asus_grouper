@@ -17,7 +17,7 @@
   {
    "repository":  "AndDiSa/proprietary_vendor_elan",
    "target_path": "vendor/elan",
-   "branch":      "ads-7.0.1"
+   "branch":      "oct-mm"
   },
   {
    "repository":  "AndDiSa/proprietary_vendor_invensense",
