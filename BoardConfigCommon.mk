@@ -93,6 +93,7 @@ BOARD_USES_GROUPER_MODULES := true
 
 TARGET_KERNEL_SOURCE := kernel/asus/grouper
 TARGET_KERNEL_CONFIG := lineageos_grouper_defconfig
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 
 TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
 
