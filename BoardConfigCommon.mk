@@ -92,7 +92,8 @@ NEED_WORKAROUND_CORTEX_A9_745320 := true
 BOARD_USES_GROUPER_MODULES := true
 
 TARGET_KERNEL_SOURCE := kernel/asus/grouper
-TARGET_KERNEL_CONFIG := lineageos_grouper_defconfig
+TARGET_KERNEL_CONFIG := tegra3_android_defconfig
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-linux-androideabi-4.9/bin
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 
 TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
