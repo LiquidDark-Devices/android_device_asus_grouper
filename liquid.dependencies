@@ -38,3 +38,5 @@
    "repository":  "AndDiSa/proprietary_vendor_widevine",
    "target_path": "vendor/widevine",
    "branch":      "ads-7.1.0"
+}
+]
