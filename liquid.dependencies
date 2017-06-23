@@ -1,8 +1,8 @@
 [
   {
-   "repository": "AndDiSa/android_kernel_asus_grouper",
+   "repository": "wilmsn/android_kernel_asus_grouper",
    "target_path": "kernel/asus/grouper",
-   "branch":      "ads-7.1.0"
+   "branch":      "cm-14.1"
   },
   {
    "repository":  "AndDiSa/proprietary_vendor_asus",
