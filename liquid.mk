@@ -5,15 +5,15 @@ PRODUCT_RELEASE_NAME := Nexus7
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 800
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+# Inherit some common LiquidDark stuff.
+$(call inherit-product, vendor/liquid/config/common_full.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/asus/grouper/full_grouper.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := grouper
-PRODUCT_NAME := lineage_grouper
+PRODUCT_NAME := liquid_grouper
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 7
 PRODUCT_MANUFACTURER := asus
