@@ -110,7 +110,7 @@ KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-ea
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_HEADER_ARCH := arm
 TARGET_KERNEL_SOURCE := kernel/asus/grouper
-TARGET_KERNEL_CONFIG := lineageos_grouper_defconfig
+TARGET_KERNEL_CONFIG := tegra3_android_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-eabi-
 
 TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
